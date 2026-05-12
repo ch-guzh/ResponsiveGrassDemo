@@ -1,12 +1,13 @@
 /**
-* (c) Klemens Jahrmann
-* klemens.jahrmann@net1220.at
-*/
+ * (c) Klemens Jahrmann
+ * klemens.jahrmann@net1220.at
+ */
 
 #ifndef PHYSXCONTROLLER_H
 #define PHYSXCONTROLLER_H
 
-#include "physx/PxPhysicsAPI.h"
+// PhysX 4.1 API - Updated header file path
+#include "PxPhysicsAPI.h"
 #include <vector>
 #include "HeightMap.h"
 #include "Geometry.h"
